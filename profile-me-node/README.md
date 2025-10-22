@@ -5,7 +5,7 @@ It demonstrates essential backend skills such as external API integration, JSON 
 
 ## Features GET /me endpoint returns:
 
-User profile info (email, full name, backend stack)
+User profile info (eneje promise, enejepromise@gmail.com, nodejs-Express)
 
 Current UTC timestamp in ISO 8601 format
 
@@ -29,7 +29,7 @@ bash git clone cd profile-api Install dependencies:
 
 bash npm install Create a .env file in the root directory and add the following environment variables:
 
-text USER_EMAIL=your.email@example.com USER_NAME=Your Full Name USER_STACK=Node.js/Express PORT=3000
+text USER_EMAIL=enejepromise@gmail.com USER_NAME=Eneje Promise USER_STACK=Node.js/Express PORT=3000
 
 Running the Project Locally Start the server with:
 
@@ -45,7 +45,7 @@ bash curl http://localhost:3000/me Postman or any API client
 
 You will receive a JSON response like:
 
-json { "status": "success", "user": { "email": "your.email@example.com", "name": "Your Full Name", "stack": "Node.js/Express" }, "timestamp": "2025-10-20T20:00:00.000Z", "fact": "Cats have five toes on their front paws but only four on the back paws." } Dependencies express: Web framework for creating API endpoints
+json { "status": "success", "user": { "email": "enejepromise@gmail.com", "name": "Eneje Promise", "stack": "Node.js/Express" }, "timestamp": "2025-10-20T20:00:00.000Z", "fact": "Cats have five toes on their front paws but only four on the back paws." } Dependencies express: Web framework for creating API endpoints
 
 axios: HTTP client to fetch data from external Cat Facts API
 
@@ -65,8 +65,8 @@ For production, consider adding rate limiting and more advanced logging.
 
 Contact For questions or feedback:
 
-Name: Full Name
+Name: Eneje Promise
 
-Email: email@example.com
+Email: enejepromise@gmail.com
 
 This README provides all you need to run and understand the /me API project simply and effectively.
